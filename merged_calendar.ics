@@ -1,1 +1,565 @@
-
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Merged Uni Plan//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Uni Stundenplan
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+SUMMARY:Regelungstechnik
+DTSTART;TZID=Europe/Berlin:20260428T121500
+DTEND;TZID=Europe/Berlin:20260428T153000
+DTSTAMP:20260422T090046Z
+UID:sked.de299186
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Regelungstechnik Dozent: Kling Datum: Di\, 28.0
+ 4.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: KD0202 Studiengr
+ uppe: 24BTS-CPV-4\, 24BTS-EAT-4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4 
+ Anmerkung: -
+LOCATION:KD0202
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systemanalyse und quantitative Entscheidungstheorie
+DTSTART;TZID=Europe/Berlin:20260429T083000
+DTEND;TZID=Europe/Berlin:20260429T113000
+DTSTAMP:20260422T090046Z
+UID:sked.de299004
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Systemanalyse und quantitative Entscheidungsthe
+ orie Dozent: Arens-Fischer Datum: Mi\, 29.04.26 Uhrzeit: 8:30 - 11:30 Uhr 
+ Dauer: 4:00 Art: SV Raum: KD0201 Studiengruppe: 24BTS-CPV-4\, 24BTS-EAT-4\
+ , 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0201
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nachhaltige Energietechnik
+DTSTART;TZID=Europe/Berlin:20260430T081500
+DTEND;TZID=Europe/Berlin:20260430T113000
+DTSTAMP:20260422T090046Z
+UID:sked.de299053
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Nachhaltige Energietechnik Dozent: Koke Datum: 
+ Do\, 30.04.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: KD0002 S
+ tudiengruppe: 24BTS-CPV-4\, 24BTS-MAS-4 Anmerkung: -
+LOCATION:KD0002
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systemanalyse und quantitative Entscheidungstheorie
+DTSTART;TZID=Europe/Berlin:20260504T081500
+DTEND;TZID=Europe/Berlin:20260504T113000
+DTSTAMP:20260422T090046Z
+UID:sked.de299165
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Systemanalyse und quantitative Entscheidungsthe
+ orie Dozent: Schlangen Datum: Mo\, 04.05.26 Uhrzeit: 8:15 - 11:30 Uhr Daue
+ r: 4:00 Art: SV Raum: KD0201 Studiengruppe: 24BTS-CPV-4\, 24BTS-EAT-4\, 24
+ BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0201
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Regelungstechnik
+DTSTART;TZID=Europe/Berlin:20260505T081500
+DTEND;TZID=Europe/Berlin:20260505T113000
+DTSTAMP:20260422T090046Z
+UID:sked.de299191
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Regelungstechnik Dozent: Kling Datum: Di\, 05.0
+ 5.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: KD0202 Studiengru
+ ppe: 24BTS-CPV-4\, 24BTS-EAT-4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4 A
+ nmerkung: -
+LOCATION:KD0202
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nachhaltige Energietechnik
+DTSTART;TZID=Europe/Berlin:20260506T121500
+DTEND;TZID=Europe/Berlin:20260506T153000
+DTSTAMP:20260422T090046Z
+UID:sked.de299057
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Nachhaltige Energietechnik Dozent: Koke Datum: 
+ Mi\, 06.05.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: LK0101/
+ LK0102 Studiengruppe: 24BTS-CPV-4\, 24BTS-MAS-4 Anmerkung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systemanalyse und quantitative Entscheidungstheorie
+DTSTART;TZID=Europe/Berlin:20260511T121500
+DTEND;TZID=Europe/Berlin:20260511T153000
+DTSTAMP:20260422T090046Z
+UID:sked.de299155
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Systemanalyse und quantitative Entscheidungsthe
+ orie Dozent: Redder Datum: Mo\, 11.05.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer:
+  4:00 Art: SV Raum: KD0001\, KD0004\, KD0201 Studiengruppe: 24BTS-CPV-4\, 
+ 24BTS-EAT-4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4\, 24DNB4-4 Anmerkung
+ : -
+LOCATION:KD0001\, KD0004\, KD0201
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Regelungstechnik
+DTSTART;TZID=Europe/Berlin:20260512T121500
+DTEND;TZID=Europe/Berlin:20260512T153000
+DTSTAMP:20260422T090046Z
+UID:sked.de299414
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Regelungstechnik Dozent: Kling Datum: Di\, 12.0
+ 5.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: LK0101/LK0102 St
+ udiengruppe: 24BTS-CPV-4\, 24BTS-EAT-4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS
+ -TIN-4 Anmerkung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nachhaltige Energietechnik
+DTSTART;TZID=Europe/Berlin:20260513T121500
+DTEND;TZID=Europe/Berlin:20260513T153000
+DTSTAMP:20260422T090046Z
+UID:sked.de299508
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Nachhaltige Energietechnik Dozent: Koke Datum: 
+ Mi\, 13.05.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: KD0302 
+ Studiengruppe: 24BTS-CPV-4\, 24BTS-MAS-4 Anmerkung: -
+LOCATION:KD0302
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systemanalyse und quantitative Entscheidungstheorie
+DTSTART;TZID=Europe/Berlin:20260513T154500
+DTEND;TZID=Europe/Berlin:20260513T190000
+DTSTAMP:20260422T090046Z
+UID:sked.de299167
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Systemanalyse und quantitative Entscheidungsthe
+ orie Dozent: Schlangen Datum: Mi\, 13.05.26 Uhrzeit: 15:45 - 19:00 Uhr Dau
+ er: 4:00 Art: SV Raum: KD0201 Studiengruppe: 24BTS-CPV-4\, 24BTS-EAT-4\, 2
+ 4BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0201
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systemanalyse und quantitative Entscheidungstheorie
+DTSTART;TZID=Europe/Berlin:20260515T083000
+DTEND;TZID=Europe/Berlin:20260515T113000
+DTSTAMP:20260422T090046Z
+UID:sked.de299532
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Systemanalyse und quantitative Entscheidungsthe
+ orie Dozent: Arens-Fischer Datum: Fr\, 15.05.26 Uhrzeit: 8:30 - 11:30 Uhr 
+ Dauer: 4:00 Art: SV Raum: LK0101/LK0102 Studiengruppe: 24BTS-CPV-4\, 24BTS
+ -EAT-4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systemanalyse und quantitative Entscheidungstheorie
+DTSTART;TZID=Europe/Berlin:20260518T081500
+DTEND;TZID=Europe/Berlin:20260518T113000
+DTSTAMP:20260422T090046Z
+UID:sked.de299403
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Systemanalyse und quantitative Entscheidungsthe
+ orie Dozent: Schlangen Datum: Mo\, 18.05.26 Uhrzeit: 8:15 - 11:30 Uhr Daue
+ r: 4:00 Art: SV Raum: LK0101/LK0102 Studiengruppe: 24BTS-CPV-4\, 24BTS-EAT
+ -4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Systemanalyse und quantitative Entscheidungstheorie
+DTSTART;TZID=Europe/Berlin:20260518T121500
+DTEND;TZID=Europe/Berlin:20260518T153000
+DTSTAMP:20260422T090046Z
+UID:sked.de299158
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Systemanalyse und quantitative Entscheidungsthe
+ orie Dozent: Redder Datum: Mo\, 18.05.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer:
+  4:00 Art: SV Raum: KD0003\, KD0004\, KD0201 Studiengruppe: 24BTS-CPV-4\, 
+ 24BTS-EAT-4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-TIN-4\, 24DNB4-4 Anmerkung
+ : -
+LOCATION:KD0003\, KD0004\, KD0201
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Regelungstechnik
+DTSTART;TZID=Europe/Berlin:20260519T081500
+DTEND;TZID=Europe/Berlin:20260519T113000
+DTSTAMP:20260422T090046Z
+UID:sked.de299413
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Regelungstechnik Dozent: Kling Datum: Di\, 19.0
+ 5.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: LK0101/LK0102 Stu
+ diengruppe: 24BTS-CPV-4\, 24BTS-EAT-4\, 24BTS-MAS-4\, 24BTS-MEC-4\, 24BTS-
+ TIN-4 Anmerkung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nachhaltige Energietechnik
+DTSTART;TZID=Europe/Berlin:20260520T154500
+DTEND;TZID=Europe/Berlin:20260520T190000
+DTSTAMP:20260422T090046Z
+UID:sked.de299513
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Nachhaltige Energietechnik Dozent: Koke Datum: 
+ Mi\, 20.05.26 Uhrzeit: 15:45 - 19:00 Uhr Dauer: 4:00 Art: SV Raum: KD0001 
+ Studiengruppe: 24BTS-CPV-4\, 24BTS-MAS-4 Anmerkung: -
+LOCATION:KD0001
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leistungselektronik
+DTSTART;TZID=Europe/Berlin:20260427T081500
+DTEND;TZID=Europe/Berlin:20260427T113000
+DTSTAMP:20260422T090045Z
+UID:sked.de299270
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Leistungselektronik Dozent: Terörde Datum: Mo\
+ , 27.04.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: KE0001 Stud
+ iengruppe: 24BTS-EAT-4 Anmerkung: -
+LOCATION:KE0001
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitale Signalverarbeitung
+DTSTART;TZID=Europe/Berlin:20260429T121500
+DTEND;TZID=Europe/Berlin:20260429T153000
+DTSTAMP:20260422T090045Z
+UID:sked.de299035
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitale Signalverarbeitung Dozent: Voges Datum
+ : Mi\, 29.04.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: KD000
+ 3 Studiengruppe: 24BTS-EAT-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitale Signalverarbeitung
+DTSTART;TZID=Europe/Berlin:20260429T154500
+DTEND;TZID=Europe/Berlin:20260429T190000
+DTSTAMP:20260422T090045Z
+UID:sked.de299031
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitale Signalverarbeitung Dozent: Voges Datum
+ : Mi\, 29.04.26 Uhrzeit: 15:45 - 19:00 Uhr Dauer: 4:00 Art: SV Raum: KD000
+ 3 Studiengruppe: 24BTS-EAT-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leistungselektronik
+DTSTART;TZID=Europe/Berlin:20260430T081500
+DTEND;TZID=Europe/Berlin:20260430T113000
+DTSTAMP:20260422T090045Z
+UID:sked.de299185
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Leistungselektronik Dozent: Terörde Datum: Do\
+ , 30.04.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: KE0101 Stud
+ iengruppe: 24BTS-EAT-4 Anmerkung: -
+LOCATION:KE0101
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitaltechnik und Rechnerarchitekturen
+DTSTART;TZID=Europe/Berlin:20260502T081500
+DTEND;TZID=Europe/Berlin:20260502T131500
+DTSTAMP:20260422T090045Z
+UID:sked.de299028
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitaltechnik und Rechnerarchitekturen Dozent:
+  Voges Datum: Sa\, 02.05.26 Uhrzeit: 8:15 - 13:15 Uhr Dauer: 6:00 Art: SV 
+ Raum: Online Studiengruppe: 24BBSW-4\, 24BTS-EAT-4 Anmerkung: -
+LOCATION:Online
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungsentwurf und -technik
+DTSTART;TZID=Europe/Berlin:20260504T154500
+DTEND;TZID=Europe/Berlin:20260504T190000
+DTSTAMP:20260422T090045Z
+UID:sked.de299329
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Schaltungsentwurf und -technik Dozent: Greiser 
+ Datum: Mo\, 04.05.26 Uhrzeit: 15:45 - 19:00 Uhr Dauer: 4:00 Art: SV Raum: 
+ KD0003 Studiengruppe: 24BTS-EAT-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungsentwurf und -technik
+DTSTART;TZID=Europe/Berlin:20260506T081500
+DTEND;TZID=Europe/Berlin:20260506T113000
+DTSTAMP:20260422T090045Z
+UID:sked.de299275
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Schaltungsentwurf und -technik Dozent: Greiser 
+ Datum: Mi\, 06.05.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: K
+ D0301 Studiengruppe: 24BTS-EAT-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0301
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitale Signalverarbeitung
+DTSTART;TZID=Europe/Berlin:20260506T121500
+DTEND;TZID=Europe/Berlin:20260506T153000
+DTSTAMP:20260422T090045Z
+UID:sked.de299056
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitale Signalverarbeitung Dozent: Voges Datum
+ : Mi\, 06.05.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: KD000
+ 4 Studiengruppe: 24BTS-EAT-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0004
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leistungselektronik
+DTSTART;TZID=Europe/Berlin:20260507T081500
+DTEND;TZID=Europe/Berlin:20260507T113000
+DTSTAMP:20260422T090045Z
+UID:sked.de299194
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Leistungselektronik Dozent: Terörde Datum: Do\
+ , 07.05.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: KD0304 Stud
+ iengruppe: 24BTS-EAT-4 Anmerkung: -
+LOCATION:KD0304
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitale Signalverarbeitung
+DTSTART;TZID=Europe/Berlin:20260507T121500
+DTEND;TZID=Europe/Berlin:20260507T153000
+DTSTAMP:20260422T090045Z
+UID:sked.de299039
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitale Signalverarbeitung Dozent: Voges Datum
+ : Do\, 07.05.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: KD000
+ 3 Studiengruppe: 24BTS-EAT-4\, 24BTS-MEC-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungsentwurf und -technik
+DTSTART;TZID=Europe/Berlin:20260507T154500
+DTEND;TZID=Europe/Berlin:20260507T190000
+DTSTAMP:20260422T090045Z
+UID:sked.de299330
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Schaltungsentwurf und -technik Dozent: Greiser 
+ Datum: Do\, 07.05.26 Uhrzeit: 15:45 - 19:00 Uhr Dauer: 4:00 Art: SV Raum: 
+ KD0004 Studiengruppe: 24BTS-EAT-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0004
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitaltechnik und Rechnerarchitekturen
+DTSTART;TZID=Europe/Berlin:20260508T081500
+DTEND;TZID=Europe/Berlin:20260508T131500
+DTSTAMP:20260422T090045Z
+UID:sked.de299029
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitaltechnik und Rechnerarchitekturen Dozent:
+  Voges Datum: Fr\, 08.05.26 Uhrzeit: 8:15 - 13:15 Uhr Dauer: 6:00 Art: SV 
+ Raum: KD0003 Studiengruppe: 24BBSW-4\, 24BTS-EAT-4 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitaltechnik und Rechnerarchitekturen
+DTSTART;TZID=Europe/Berlin:20260509T081500
+DTEND;TZID=Europe/Berlin:20260509T131500
+DTSTAMP:20260422T090045Z
+UID:sked.de299300
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitaltechnik und Rechnerarchitekturen Dozent:
+  Voges Datum: Sa\, 09.05.26 Uhrzeit: 8:15 - 13:15 Uhr Dauer: 6:00 Art: SV 
+ Raum: Online Studiengruppe: 24BBSW-4\, 24BTS-EAT-4 Anmerkung: -
+LOCATION:Online
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungsentwurf und -technik
+DTSTART;TZID=Europe/Berlin:20260513T081500
+DTEND;TZID=Europe/Berlin:20260513T113000
+DTSTAMP:20260422T090045Z
+UID:sked.de299276
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Schaltungsentwurf und -technik Dozent: Greiser 
+ Datum: Mi\, 13.05.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: K
+ D0001 Studiengruppe: 24BTS-EAT-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0001
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leistungselektronik
+DTSTART;TZID=Europe/Berlin:20260513T121500
+DTEND;TZID=Europe/Berlin:20260513T153000
+DTSTAMP:20260422T090045Z
+UID:sked.de299395
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Leistungselektronik Dozent: Terörde Datum: Mi\
+ , 13.05.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV Raum: KD0101 Stu
+ diengruppe: 24BTS-EAT-4 Anmerkung: -
+LOCATION:KD0101
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leistungselektronik
+DTSTART;TZID=Europe/Berlin:20260521T081500
+DTEND;TZID=Europe/Berlin:20260521T113000
+DTSTAMP:20260422T090045Z
+UID:sked.de299394
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Leistungselektronik Dozent: Terörde Datum: Do\
+ , 21.05.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: KD0003 Stud
+ iengruppe: 24BTS-EAT-4 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Schaltungsentwurf und -technik
+DTSTART;TZID=Europe/Berlin:20260522T081500
+DTEND;TZID=Europe/Berlin:20260522T113000
+DTSTAMP:20260422T090045Z
+UID:sked.de299399
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Schaltungsentwurf und -technik Dozent: Greiser 
+ Datum: Fr\, 22.05.26 Uhrzeit: 8:15 - 11:30 Uhr Dauer: 4:00 Art: SV Raum: K
+ D0004 Studiengruppe: 24BTS-EAT-4\, 24BTS-TIN-4 Anmerkung: -
+LOCATION:KD0004
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitaltechnik und Rechnerarchitekturen
+DTSTART;TZID=Europe/Berlin:20260613T090000
+DTEND;TZID=Europe/Berlin:20260613T140000
+DTSTAMP:20260422T090045Z
+UID:sked.de299299
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitaltechnik und Rechnerarchitekturen Dozent:
+  Voges Datum: Sa\, 13.06.26 Uhrzeit: 9:00 - 14:00 Uhr Dauer: 6:00 Art: SV 
+ Raum: KD0002 Studiengruppe: 24BBSW-4\, 24BTS-EAT-4 Anmerkung: -
+LOCATION:KD0002
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Digitaltechnik und Rechnerarchitekturen
+DTSTART;TZID=Europe/Berlin:20260619T121500
+DTEND;TZID=Europe/Berlin:20260619T153000
+DTSTAMP:20260422T090045Z
+UID:sked.de299298
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Digitaltechnik und Rechnerarchitekturen Dozent:
+  Voges Datum: Fr\, 19.06.26 Uhrzeit: 12:15 - 15:30 Uhr Dauer: 4:00 Art: SV
+  Raum: KD0004 Studiengruppe: 24BBSW-4\, 24BTS-EAT-4 Anmerkung: -
+LOCATION:KD0004
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
