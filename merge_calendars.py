@@ -1,5 +1,6 @@
 import re
 import requests
+from copy import deepcopy
 from icalendar import Calendar
 
 FEED_URLS = [
@@ -16,7 +17,7 @@ EXCLUDE_KEYWORDS = [
     "metallbau",
 ]
 
-OUTPUT_FILE = "Stundenplan.ics"
+OUTPUT_FILE = "merged_calendar.ics"
 
 
 def normalize_encoding(s: str) -> str:
@@ -147,8 +148,9 @@ def build_merged_calendar() -> Calendar:
 
             seen.add(dedup_key)
 
-            sanitize_component_text_fields(component)
-            merged_cal.add_component(component)
+            new_component = deepcopy(component)
+            sanitize_component_text_fields(new_component)
+            merged_cal.add_component(new_component)
             kept_events += 1
 
     print(f"Fertig: {kept_events} von {total_events} Events übernommen.")
@@ -170,6 +172,7 @@ def save_calendar(cal: Calendar, output_path: str) -> None:
 
 def main():
     print("Starte Skript ...")
+    print(f"Ich schreibe nach: {OUTPUT_FILE}")
     cal = build_merged_calendar()
     save_calendar(cal, OUTPUT_FILE)
     print("Skript fertig.")
