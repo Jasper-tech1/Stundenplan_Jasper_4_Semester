@@ -11,15 +11,17 @@ FEED_URLS = [
     "https://sked.lin.hs-osnabrueck.de/sked/grp/24BTS-EAT-4.ics",
 ]
 
-# Module, die du NICHT sehen willst
+# Module, die NICHT im Kalender erscheinen sollen
 EXCLUDE_KEYWORDS = [
     "Entwurfsberechnung statischer Systeme",
     "englisch",
     "Fluidmechanik",
     "Konstruktion technischer Baugruppen",
     "elektrotechnik",
-    "metallbau",   # korrekt geschrieben, wir normalisieren unten
+    "metallbau",
 ]
+
+OUTPUT_FILE = "Stundenplan.ics"
 
 # ==============================
 # HILFSFUNKTIONEN
@@ -27,27 +29,59 @@ EXCLUDE_KEYWORDS = [
 
 def normalize_encoding(s: str) -> str:
     """
-    Behebt typische UTF-8/Latin-1-Mojibake wie 'Ã¼' -> 'ü'.
+    Behebt typische Mojibake-/Encoding-Probleme wie:
+    'Ã¼' -> 'ü'
     """
     if not s:
         return ""
-    s = s.replace("Ã¼", "ü").replace("Ã¶", "ö").replace("Ã¤", "ä")
-    s = s.replace("ÃŸ", "ß")
+
+    replacements = {
+        "Ã¼": "ü",
+        "Ã¶": "ö",
+        "Ã¤": "ä",
+        "Ãœ": "Ü",
+        "Ã–": "Ö",
+        "Ã„": "Ä",
+        "ÃŸ": "ß",
+        "â€“": "–",
+        "â€”": "—",
+        "â€ž": "„",
+        "â€œ": "“",
+        "â€š": "‚",
+        "â€™": "’",
+    }
+
+    for wrong, right in replacements.items():
+        s = s.replace(wrong, right)
+
     return s
+
+
+def clean_text(s: str) -> str:
+    """
+    Vereinheitlicht Text für Vergleiche:
+    - Encoding korrigieren
+    - trimmen
+    - Mehrfach-Leerzeichen entfernen
+    """
+    if not s:
+        return ""
+
+    s = str(s)
+    s = normalize_encoding(s)
+    s = re.sub(r"\s+", " ", s)
+    return s.strip()
 
 
 def normalize_summary(summary: str) -> str:
     """
-    Vereinfacht den Titel:
+    Normalisiert Veranstaltungstitel für Dubletten-Erkennung:
     - Encoding korrigieren
-    - alles in Klammern entfernen
-    - Mehrfach-Leerzeichen reduzieren
-    - klein schreiben
+    - Klammerzusätze entfernen
+    - Leerzeichen vereinheitlichen
+    - in Kleinbuchstaben umwandeln
     """
-    if not summary:
-        return ""
-    s = str(summary)
-    s = normalize_encoding(s)
+    s = clean_text(summary)
     s = re.sub(r"\([^)]*\)", "", s)
     s = re.sub(r"\s+", " ", s)
     return s.strip().lower()
@@ -55,15 +89,51 @@ def normalize_summary(summary: str) -> str:
 
 def should_keep_event(summary: str) -> bool:
     """
-    Event behalten? -> Ja, außer es enthält eins der EXCLUDE_KEYWORDS.
+    Prüft, ob ein Event behalten werden soll.
     """
-    s = normalize_encoding(summary or "").lower()
+    normalized = clean_text(summary).lower()
 
     for bad in EXCLUDE_KEYWORDS:
-        if bad.lower() in s:
+        if bad.lower() in normalized:
             print(f"Filtere Event wegen Keyword '{bad}': {summary}")
             return False
+
     return True
+
+
+def sanitize_component_text_fields(component) -> None:
+    """
+    Bereinigt wichtige Textfelder innerhalb eines VEVENT.
+    Dadurch erscheinen Umlaute später auch sauber im exportierten Kalender.
+    """
+    text_fields = [
+        "summary",
+        "description",
+        "location",
+    ]
+
+    for field in text_fields:
+        value = component.get(field)
+        if value is not None:
+            cleaned = clean_text(str(value))
+            component[field] = cleaned
+
+
+def fetch_calendar(url: str):
+    """
+    Lädt einen ICS-Feed herunter und gibt ein Calendar-Objekt zurück.
+    """
+    try:
+        print(f"Lade {url} ...")
+        resp = requests.get(url, timeout=20)
+        resp.raise_for_status()
+
+        # Direkt mit Bytes arbeiten, damit Encoding-Probleme minimiert werden
+        return Calendar.from_ical(resp.content)
+
+    except Exception as e:
+        print(f"Fehler beim Laden oder Parsen von {url}: {e}")
+        return None
 
 
 # ==============================
@@ -72,27 +142,18 @@ def should_keep_event(summary: str) -> bool:
 
 def build_merged_calendar() -> Calendar:
     print("Baue zusammengeführten Kalender ...")
+
     merged_cal = Calendar()
     merged_cal.add("prodid", "-//Merged Uni Plan//DE")
     merged_cal.add("version", "2.0")
 
-    seen = set()  # (dtstart, normalisierter Titel)
+    seen = set()
     total_events = 0
     kept_events = 0
 
     for url in FEED_URLS:
-        try:
-            print(f"Lade {url} ...")
-            resp = requests.get(url, timeout=20)
-            resp.raise_for_status()
-        except Exception as e:
-            print(f"Fehler beim Laden von {url}: {e}")
-            continue
-
-        try:
-            src_cal = Calendar.from_ical(resp.text)
-        except Exception as e:
-            print(f"Fehler beim Parsen von {url}: {e}")
+        src_cal = fetch_calendar(url)
+        if src_cal is None:
             continue
 
         for component in src_cal.walk():
@@ -100,25 +161,36 @@ def build_merged_calendar() -> Calendar:
                 continue
 
             total_events += 1
+
             summary = str(component.get("summary", ""))
+            summary_clean = clean_text(summary)
 
-            # Filter anwenden
-            if not should_keep_event(summary):
+            if not should_keep_event(summary_clean):
                 continue
 
-            dtstart = component.get("dtstart")
-            if not dtstart:
+            dtstart_field = component.get("dtstart")
+            dtend_field = component.get("dtend")
+
+            if not dtstart_field:
+                print(f"Überspringe Event ohne DTSTART: {summary_clean}")
                 continue
-            dtstart = dtstart.dt
 
-            norm_title = normalize_summary(summary)
-            key = (dtstart, norm_title)
+            dtstart = dtstart_field.dt
+            dtend = dtend_field.dt if dtend_field else None
 
-            if key in seen:
-                print(f"Duplikat, überspringe: {summary} @ {dtstart}")
+            norm_title = normalize_summary(summary_clean)
+
+            # Robuster Dubletten-Schlüssel:
+            # Startzeit + Endzeit + normalisierter Titel
+            dedup_key = (dtstart, dtend, norm_title)
+
+            if dedup_key in seen:
+                print(f"Duplikat, überspringe: {summary_clean} @ {dtstart}")
                 continue
-            seen.add(key)
 
+            seen.add(dedup_key)
+
+            sanitize_component_text_fields(component)
             merged_cal.add_component(component)
             kept_events += 1
 
@@ -126,15 +198,21 @@ def build_merged_calendar() -> Calendar:
     return merged_cal
 
 
-def main():
-    cal = build_merged_calendar()
+def save_calendar(cal: Calendar, output_path: str) -> None:
+    """
+    Speichert den Kalender als ICS-Datei.
+    """
     ics_data = cal.to_ical()
 
-    output_path = "Stundenplan.ics"
     with open(output_path, "wb") as f:
         f.write(ics_data)
 
     print(f"Kalender-Datei gespeichert unter: {output_path}")
+
+
+def main():
+    cal = build_merged_calendar()
+    save_calendar(cal, OUTPUT_FILE)
 
 
 if __name__ == "__main__":
