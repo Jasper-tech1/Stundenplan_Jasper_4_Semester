@@ -5,4 +5,445 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Uni Stundenplan
 X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20260921T160000
+DTEND;TZID=Europe/Berlin:20260921T191500
+DTSTAMP:20260921T070100Z
+UID:sked.de307740
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Mo
+ \, 21.09.26 Uhrzeit: 16:00 - 19:15 Dauer: 4:00 Art: SV Raum: KD0201 Studie
+ ngruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmerkung: 
+ -
+LOCATION:KD0201
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20260922T081500
+DTEND;TZID=Europe/Berlin:20260922T113000
+DTSTAMP:20260921T070100Z
+UID:sked.de307741
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Di
+ \, 22.09.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00 Art: SV Raum: LK0101/LK0102 
+ Studiengruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmer
+ kung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experimentelle Steuerungs- und Digitaltechnik
+DTSTART;TZID=Europe/Berlin:20260924T121500
+DTEND;TZID=Europe/Berlin:20260924T163000
+DTSTAMP:20260921T070100Z
+UID:sked.de308012
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Experimentelle Steuerungs- und Digitaltechnik D
+ ozent: Ahuis\, Kling Datum: Do\, 24.09.26 Uhrzeit: 12:15 - 16:30 Dauer: 5:
+ 00 Art: SV Raum: KC0101 (E-Lab) Studiengruppe: 24BTS-EAT-5\, 24BTS-MEC-5\,
+  24BTS-TIN-5 Anmerkung: -
+LOCATION:KC0101 (E-Lab)
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produktionsplanung und -steuerung
+DTSTART;TZID=Europe/Berlin:20260925T081500
+DTEND;TZID=Europe/Berlin:20260925T113000
+DTSTAMP:20260921T070100Z
+UID:sked.de308571
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Produktionsplanung und -steuerung Dozent: Kalli
+ sch Datum: Fr\, 25.09.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00 Art: SV Raum: K
+ E0101 Studiengruppe: 24BTS-EAT-5\, 24DNB-LOG-5\, 24DNB-MAR-5\, 24DNE-PSM-5
+ \, 24DNI-PDI-5 Anmerkung: -
+LOCATION:KE0101
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20260928T160000
+DTEND;TZID=Europe/Berlin:20260928T191500
+DTSTAMP:20260921T070100Z
+UID:sked.de307742
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Mo
+ \, 28.09.26 Uhrzeit: 16:00 - 19:15 Dauer: 4:00 Art: SV Raum: KD0202 Studie
+ ngruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmerkung: 
+ -
+LOCATION:KD0202
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20260929T081500
+DTEND;TZID=Europe/Berlin:20260929T113000
+DTSTAMP:20260921T070100Z
+UID:sked.de307743
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Di
+ \, 29.09.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00 Art: SV Raum: LK0101/LK0102 
+ Studiengruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmer
+ kung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experimentelle Steuerungs- und Digitaltechnik
+DTSTART;TZID=Europe/Berlin:20260930T154500
+DTEND;TZID=Europe/Berlin:20260930T200000
+DTSTAMP:20260921T070100Z
+UID:sked.de308014
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Experimentelle Steuerungs- und Digitaltechnik D
+ ozent: Ahuis\, Kling Datum: Mi\, 30.09.26 Uhrzeit: 15:45 - 20:00 Dauer: 5:
+ 00 Art: SV Raum: KC0101 (E-Lab) Studiengruppe: 24BTS-EAT-5\, 24BTS-MEC-5\,
+  24BTS-TIN-5 Anmerkung: -
+LOCATION:KC0101 (E-Lab)
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Projektierung technischer Systeme C
+DTSTART;TZID=Europe/Berlin:20261001T154500
+DTEND;TZID=Europe/Berlin:20261001T190000
+DTSTAMP:20260921T070100Z
+UID:sked.de308004
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Projektierung technischer Systeme C Dozent: Kok
+ e Datum: Do\, 01.10.26 Uhrzeit: 15:45 - 19:00 Dauer: 4:00 Art: SV Raum: LK
+ 0101/LK0102 Studiengruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS
+ -MEC-5\, 24BTS-TIN-5 Anmerkung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produktionsplanung und -steuerung
+DTSTART;TZID=Europe/Berlin:20261007T121500
+DTEND;TZID=Europe/Berlin:20261007T153000
+DTSTAMP:20260921T070100Z
+UID:sked.de308268
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Produktionsplanung und -steuerung Dozent: Kalli
+ sch Datum: Mi\, 07.10.26 Uhrzeit: 12:15 - 15:30 Dauer: 4:00 Art: SV Raum: 
+ LK0101/LK0102 Studiengruppe: 24BTS-EAT-5\, 24DNB-LOG-5\, 24DNB-MAR-5\, 24D
+ NE-PSM-5\, 24DNI-PDI-5 Anmerkung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experimentelle Steuerungs- und Digitaltechnik
+DTSTART;TZID=Europe/Berlin:20261007T154500
+DTEND;TZID=Europe/Berlin:20261007T200000
+DTSTAMP:20260921T070100Z
+UID:sked.de308015
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Experimentelle Steuerungs- und Digitaltechnik D
+ ozent: Ahuis\, Kling Datum: Mi\, 07.10.26 Uhrzeit: 15:45 - 20:00 Dauer: 5:
+ 00 Art: SV Raum: KC0101 (E-Lab) Studiengruppe: 24BTS-EAT-5\, 24BTS-MEC-5\,
+  24BTS-TIN-5 Anmerkung: -
+LOCATION:KC0101 (E-Lab)
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20261012T160000
+DTEND;TZID=Europe/Berlin:20261012T191500
+DTSTAMP:20260921T070100Z
+UID:sked.de307744
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Mo
+ \, 12.10.26 Uhrzeit: 16:00 - 19:15 Dauer: 4:00 Art: SV Raum: KD0202 Studie
+ ngruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmerkung: 
+ -
+LOCATION:KD0202
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20261013T081500
+DTEND;TZID=Europe/Berlin:20261013T113000
+DTSTAMP:20260921T070100Z
+UID:sked.de307745
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Di
+ \, 13.10.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00 Art: SV Raum: LK0101/LK0102 
+ Studiengruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmer
+ kung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experimentelle Steuerungs- und Digitaltechnik
+DTSTART;TZID=Europe/Berlin:20261013T154500
+DTEND;TZID=Europe/Berlin:20261013T200000
+DTSTAMP:20260921T070100Z
+UID:sked.de308013
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Experimentelle Steuerungs- und Digitaltechnik D
+ ozent: Ahuis\, Kling Datum: Di\, 13.10.26 Uhrzeit: 15:45 - 20:00 Dauer: 5:
+ 00 Art: SV Raum: KC0101 (E-Lab) Studiengruppe: 24BTS-EAT-5\, 24BTS-MEC-5\,
+  24BTS-TIN-5 Anmerkung: -
+LOCATION:KC0101 (E-Lab)
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produktionsplanung und -steuerung
+DTSTART;TZID=Europe/Berlin:20261015T154500
+DTEND;TZID=Europe/Berlin:20261015T190000
+DTSTAMP:20260921T070100Z
+UID:sked.de308265
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Produktionsplanung und -steuerung Dozent: Kalli
+ sch Datum: Do\, 15.10.26 Uhrzeit: 15:45 - 19:00 Dauer: 4:00 Art: SV Raum: 
+ KD0003 Studiengruppe: 24BTS-EAT-5\, 24DNB-LOG-5\, 24DNB-MAR-5\, 24DNE-PSM-
+ 5\, 24DNI-PDI-5 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produktionsplanung und -steuerung
+DTSTART;TZID=Europe/Berlin:20261016T081500
+DTEND;TZID=Europe/Berlin:20261016T113000
+DTSTAMP:20260921T070100Z
+UID:sked.de307698
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Produktionsplanung und -steuerung Dozent: Kalli
+ sch Datum: Fr\, 16.10.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00 Art: SV Raum: K
+ D0002 Studiengruppe: 24BTS-EAT-5\, 24DNB-LOG-5\, 24DNB-MAR-5\, 24DNE-PSM-5
+ \, 24DNI-PDI-5 Anmerkung: -
+LOCATION:KD0002
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20261019T160000
+DTEND;TZID=Europe/Berlin:20261019T191500
+DTSTAMP:20260921T070100Z
+UID:sked.de307746
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Mo
+ \, 19.10.26 Uhrzeit: 16:00 - 19:15 Dauer: 4:00 Art: SV Raum: KD0202 Studie
+ ngruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmerkung: 
+ -
+LOCATION:KD0202
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20261020T081500
+DTEND;TZID=Europe/Berlin:20261020T113000
+DTSTAMP:20260921T070100Z
+UID:sked.de307747
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Di
+ \, 20.10.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00 Art: SV Raum: LK0101/LK0102 
+ Studiengruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmer
+ kung: -
+LOCATION:LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produktionsplanung und -steuerung
+DTSTART;TZID=Europe/Berlin:20261020T121500
+DTEND;TZID=Europe/Berlin:20261020T153000
+DTSTAMP:20260921T070100Z
+UID:sked.de308266
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Produktionsplanung und -steuerung Dozent: Kalli
+ sch Datum: Di\, 20.10.26 Uhrzeit: 12:15 - 15:30 Dauer: 4:00 Art: SV Raum: 
+ KD0003 Studiengruppe: 24BTS-EAT-5\, 24DNB-LOG-5\, 24DNB-MAR-5\, 24DNE-PSM-
+ 5\, 24DNI-PDI-5 Anmerkung: -
+LOCATION:KD0003
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Projektierung technischer Systeme C
+DTSTART;TZID=Europe/Berlin:20261021T081500
+DTEND;TZID=Europe/Berlin:20261021T120000
+DTSTAMP:20260921T070100Z
+UID:sked.de308766
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Projektierung technischer Systeme C Dozent: Kok
+ e Datum: Mi\, 21.10.26 Uhrzeit: 8:15 - 12:00 Dauer: 4:15 Art: SV Raum: KF0
+ 004\, LK0101/LK0102 Studiengruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5
+ \, 24BTS-MEC-5\, 24BTS-TIN-5 Anmerkung: -
+LOCATION:KF0004\, LK0101/LK0102
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Produktionsplanung und -steuerung
+DTSTART;TZID=Europe/Berlin:20261022T154500
+DTEND;TZID=Europe/Berlin:20261022T190000
+DTSTAMP:20260921T070100Z
+UID:sked.de308267
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Produktionsplanung und -steuerung Dozent: Kalli
+ sch Datum: Do\, 22.10.26 Uhrzeit: 15:45 - 19:00 Dauer: 4:00 Art: SV Raum: 
+ KD0002 Studiengruppe: 24BTS-EAT-5\, 24DNB-LOG-5\, 24DNB-MAR-5\, 24DNE-PSM-
+ 5\, 24DNI-PDI-5 Anmerkung: -
+LOCATION:KD0002
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mess- und Sensortechnik
+DTSTART;TZID=Europe/Berlin:20261028T103000
+DTEND;TZID=Europe/Berlin:20261028T120000
+DTSTAMP:20260921T070100Z
+UID:sked.de308717
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Mess- und Sensortechnik Dozent: Kiehl Datum: Mi
+ \, 28.10.26 Uhrzeit: 10:30 - 12:00 Dauer: 2:00 Art: K Raum: KD0202 Studien
+ gruppe: 24BTS-CPV-5\, 24BTS-EAT-5\, 24BTS-MAS-5\, 24BTS-MEC-5 Anmerkung: -
+LOCATION:KD0202
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Experimentelle Steuerungs- und Digitaltechnik
+DTSTART;TZID=Europe/Berlin:20261029T081500
+DTEND;TZID=Europe/Berlin:20261029T153000
+DTSTAMP:20260921T070100Z
+UID:sked.de308704
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Experimentelle Steuerungs- und Digitaltechnik D
+ ozent: Ahuis\, Kling Datum: Do\, 29.10.26 Uhrzeit: 8:15 - 15:30 Dauer: 8:0
+ 0 Art: PL Raum: KC0101 (E-Lab) Studiengruppe: 24BTS-EAT-5\, 24BTS-MEC-5\, 
+ 24BTS-TIN-5 Anmerkung: -
+LOCATION:KC0101 (E-Lab)
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Methoden der KI - Deep and Reinforcement Learning
+DTSTART;TZID=Europe/Berlin:20260928T081500
+DTEND;TZID=Europe/Berlin:20260928T113000
+DTSTAMP:20260921T070101Z
+UID:sked.de307979
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Methoden der KI - Deep and Reinforcement Learni
+ ng Dozent: Guericke Datum: Mo\, 28.09.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00
+  Art: SV Raum: KD0004 Studiengruppe: 24BTS-TIN-5\, 24DNI-IBM-5\, 24DNI-IMA
+ -5 Anmerkung: -
+LOCATION:KD0004
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Methoden der KI - Deep and Reinforcement Learning
+DTSTART;TZID=Europe/Berlin:20260930T121500
+DTEND;TZID=Europe/Berlin:20260930T153000
+DTSTAMP:20260921T070101Z
+UID:sked.de307980
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Methoden der KI - Deep and Reinforcement Learni
+ ng Dozent: Guericke Datum: Mi\, 30.09.26 Uhrzeit: 12:15 - 15:30 Dauer: 4:0
+ 0 Art: SV Raum: KA0005 Studiengruppe: 24BTS-TIN-5\, 24DNI-IBM-5\, 24DNI-IM
+ A-5 Anmerkung: -
+LOCATION:KA0005
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Methoden der KI - Deep and Reinforcement Learning
+DTSTART;TZID=Europe/Berlin:20261005T081500
+DTEND;TZID=Europe/Berlin:20261005T113000
+DTSTAMP:20260921T070101Z
+UID:sked.de307981
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Methoden der KI - Deep and Reinforcement Learni
+ ng Dozent: Guericke Datum: Mo\, 05.10.26 Uhrzeit: 8:15 - 11:30 Dauer: 4:00
+  Art: SV Raum: KD0002 Studiengruppe: 24BTS-TIN-5\, 24DNI-IBM-5\, 24DNI-IMA
+ -5 Anmerkung: -
+LOCATION:KD0002
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Methoden der KI - Deep and Reinforcement Learning
+DTSTART;TZID=Europe/Berlin:20261006T121500
+DTEND;TZID=Europe/Berlin:20261006T153000
+DTSTAMP:20260921T070101Z
+UID:sked.de307982
+SEQUENCE:0
+CATEGORIES:sked.de
+CLASS:PUBLIC
+DESCRIPTION:Veranstaltung: Methoden der KI - Deep and Reinforcement Learni
+ ng Dozent: Guericke Datum: Di\, 06.10.26 Uhrzeit: 12:15 - 15:30 Dauer: 4:0
+ 0 Art: SV Raum: KA0005 Studiengruppe: 24BTS-TIN-5\, 24DNI-IBM-5\, 24DNI-IM
+ A-5 Anmerkung: -
+LOCATION:KA0005
+PRIORITY:5
+TRANSP:OPAQUE
+END:VEVENT
 END:VCALENDAR
